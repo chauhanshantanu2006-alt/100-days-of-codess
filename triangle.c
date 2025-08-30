@@ -17,4 +17,5 @@ int main() {
     {
         printf("scalene triangle");
     }
+    return 0;
     }
