@@ -9,4 +9,6 @@ int main() {
     } else {
         printf("not a leap year");
     }
+ return o;
 }
+
