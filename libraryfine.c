@@ -12,7 +12,7 @@ int main() {
         printf("No fine! Book returned on time.\n");
     } 
     else if (dayslate <= 5) {
-        fine = dayslate * 1;
+        fine = dayslate * 2;
         printf("Total fine: ₹%d\n", fine);
     } 
     else if (dayslate <= 10) {
@@ -34,5 +34,6 @@ int main() {
 
     return 0;
 }
+
 
 
