@@ -13,13 +13,19 @@ int main() {
     }
     else if (units <= 200)
     {
-        bill = units*6.333;        
+        bill = units*7;        
         printf("the bill is %f", bill);
     }
     else if (units <=300)
     {
-        bill= units*8.8;
+        bill= units*10;
+        printf("the bill is %f", bill);
+    }
+    else if (units <=400)
+    {
+        bill= units*12;
         printf("the bill is %f", bill);
     }
 return 0;    
+
 }
