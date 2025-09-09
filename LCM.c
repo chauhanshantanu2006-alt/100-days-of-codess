@@ -1,4 +1,4 @@
-//.Q: Write a program to find the LCM of two numbers using loop without using array and string.
+//.Q: Write a program to find the LCM of two numbers .
 
 #include <stdio.h>
 int main(){
@@ -15,4 +15,5 @@ int main(){
     }
     printf("The LCM of %d and %d is %d\n", num1, num2, lcm);
     return 0;
+
 }
