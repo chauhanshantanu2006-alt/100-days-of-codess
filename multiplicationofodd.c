@@ -1,4 +1,4 @@
-//.Q: Write a program to find the product of odd digits of a number using loop without using array or string.
+//.Q: Write a program to find the product of odd digits of a number.
 
 #include <stdio.h>
 int main() {
@@ -20,3 +20,4 @@ int main() {
 
     return 0;
 }
+
