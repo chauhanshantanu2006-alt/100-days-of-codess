@@ -1,4 +1,4 @@
-//. Q Write a program to find the sum of the series: 2/3 + 4/7 + 6/11 + 8/15 + ... up to n terms using loop without using array pr string.
+//. Q Write a program to find the sum of the series: 2/3 + 4/7 + 6/11 + 8/15 + ... up to n terms.
 
 #include <stdio.h>
 int main() {
@@ -14,4 +14,5 @@ int main() {
 
     printf("Sum of the series up to %d terms is: %.2f\n", n, sum);
     return 0;
+
 }
